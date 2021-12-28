@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅방</title>
+  </head>
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <body id="chat-screen">
+    <!--배경색을 바꾸기 위해 id-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>SKT</span>
+        <!--wifi--><i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>04:18</span>
+      </div>
+      <div class="status-bar__column">
+        <span>41%</span>
+        <!--BatteryIcon--><i class="fas fa-battery-half"></i>
+        <!--LightningIcon--><i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">한지성</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, December 31, 2021</div>
+      <div class="message-row">
+        <img src="C:\Users\winna\iCloudPhotos\Photos\IMG_0019 (3).JPG" />
+        <div class="message-row__content">
+          <span class="message-author">한지성</span>
+          <div class="message_info">
+            <span class="message__bubble">안녕!</span>
+            <span class="message__time">21:14</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message_info">
+            <span class="message__bubble">안녕!</span>
+            <span class="message__time">21:14</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메시지를 입력하세요" />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>당신의 화면이 너무 큽니다ㅜㅜ</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!--
+  친구
+  <i class="fas fa-user-friends fa-2x"></i>
+  <i class="fas fa-user fa-2x"></i>
+  채팅
+  <i class="fas fa-comments fa-2x"></i>
+  <i class="fas fa-comment fa-2x"></i>
+  검색
+  <i class="fas fa-search-plus fa-2x"></i>
+  <i class="fas fa-search fa-2x"></i>
+  설정
+  <i class="fas fa-cogs fa-2x"></i>
+  <i class="fas fa-cog fa-2x"></i>
+-->

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>카카오톡에 오신걸 환영합니다</title>
+  </head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>서비스없음</span>
+        <!--wifi--><i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>04:18</span>
+      </div>
+      <div class="status-bar__column">
+        <span>41%</span>
+        <!--BatteryIcon--><i class="fas fa-battery-half"></i>
+        <!--LightningIcon--><i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">카카오톡에 오신걸 환영합니다</h1>
+      <p class="welcome-header__text">
+        카카오 계정이 있다면 이메일이나 전화번호로 로그인하세요.
+      </p>
+    </header>
+    <!--액션으로 메소드의 형식을 사용해 다음화면으로 이동-->
+    <form action="friends.html" method="" id="login-form">
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="이메일 혹은 전화번호"
+      />
+      <input name="password" type="password" required placeholder="비밀번호" />
+
+      <a href="friends.html"><input type="submit" value="로그인" /></a>
+      <input type="submit" value="회원가입" />
+      <a href="#">카카오 계정이나 비밀번호 찾기</a>
+    </form>
+    <div id="no-mobile">
+      <span>당신의 화면이 너무 큽니다ㅜㅜ</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

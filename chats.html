@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅 목록</title>
+  </head>
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>SKT</span>
+        <!--wifi--><i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>04:18</span>
+      </div>
+      <div class="status-bar__column">
+        <span>41%</span>
+        <!--BatteryIcon--><i class="fas fa-battery-half"></i>
+        <!--LightningIcon--><i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">채팅</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-comment-medical fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-ellipsis-h fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="C:\Users\winna\iCloudPhotos\Photos\IMG_0019.JPG"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">한지성</h4>
+              <h6 class="user-component__subtitle">
+                새로운 메시지가 도착했습니다.
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span clss="user-component__time">09:14</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html"
+            ><span class="nav__noti badge">1</span
+            ><i class="fas fa-comments fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="set.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>당신의 화면이 너무 큽니다ㅜㅜ</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!--
+  친구
+  <i class="fas fa-user-friends fa-2x"></i>
+  <i class="fas fa-user fa-2x"></i>
+  채팅
+  <i class="fas fa-comments fa-2x"></i>
+  <i class="fas fa-comment fa-2x"></i>
+  검색
+  <i class="fas fa-search-plus fa-2x"></i>
+  <i class="fas fa-search fa-2x"></i>
+  설정
+  <i class="fas fa-cogs fa-2x"></i>
+  <i class="fas fa-cog fa-2x"></i>
+-->

@@ -1,0 +1,29 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between; /*양쪽배열*/
+  align-items: center; /*중앙에 위치하도록*/
+  padding: var(--horizontal-space);
+  margin-top: 5px;
+}
+
+.screen-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-ellipsis-h:hover {
+  animation: rotateCog 1s linear infinite;
+}

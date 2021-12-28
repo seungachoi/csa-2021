@@ -1,0 +1,21 @@
+.badge {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px; /*사각형 값의 반을 쓰면 원으로 표시 가능*/
+  color: white;
+  font-weight: 600;
+}
+
+.new {
+  background-color: tomato;
+  width: 10;
+  height: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
